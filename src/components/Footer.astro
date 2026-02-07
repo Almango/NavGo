@@ -1,0 +1,61 @@
+---
+// 页脚组件
+import '../assets/css/style.css';
+---
+
+<footer class="footer">
+    <div class="footer-content">
+        <p class="copyright">Copyright © 2026 <a href="/" class="footer-link">NavGo</a>.</p>
+        <p class="powered">Powered by <a href="https://astro.build" target="_blank" class="footer-link">Astro</a> & <a href="/" class="footer-link">NavGo</a></p>
+        <p class="icp"><a href="https://icp.gov.moe/?keyword=20260208" target="_blank" class="footer-link">萌ICP备20260208号</a></p>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        padding: 20px 40px;
+        margin-top: 40px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .footer-content p {
+        margin: 0;
+        font-size: 14px;
+        color: var(--footer-color);
+        text-align: center;
+    }
+
+    .copyright {
+        font-weight: 500;
+    }
+
+    .footer-link {
+        color: var(--footer-color);
+        text-decoration: none;
+        transition: var(--transition);
+    }
+
+    .footer-link:hover {
+        color: var(--text-color);
+
+    }
+
+    @media (max-width: 768px) {
+        .footer {
+            padding: 10px;
+        }
+
+        .footer-content {
+            gap: 8px;
+        }
+    }
+</style>

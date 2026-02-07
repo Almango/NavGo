@@ -1,0 +1,207 @@
+{
+  "websites": [
+    {
+      "name": "Github",
+      "desc": "全球最大的代码托管平台",
+      "url": "https://www.github.com",
+      "logo": "https://images.icon-icons.com/936/PNG/512/github-logo_icon-icons.com_73546.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "必应",
+      "desc": "微软的搜索引擎",
+      "url": "https://www.bing.com",
+      "logo": "https://images.icon-icons.com/729/PNG/512/bing_icon-icons.com_62711.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "Google Search",
+      "desc": "全球最大的搜索引擎",
+      "url": "https://www.google.com",
+      "logo": "https://images.icon-icons.com/2699/PNG/512/google_logo_icon_169090.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "豆包",
+      "desc": "字节跳动旗下的AI智能助手",
+      "url": "https://www.duckduckgo.com",
+      "logo": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "Almango",
+      "desc": "啊芒果的个人博客",
+      "url": "https://blog.almango.cn/",
+      "logo": "https://www.almango.cn/image/avatar.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "Office",
+      "desc": "微软程序开发软件套装",
+      "url": "https://www.office.com",
+      "logo": "📄",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "CSS Scan",
+      "desc": "Beautiful CSS box-shadow examples",
+      "url": "https://getcssscan.com/css-box-shadow-examples",
+      "logo": "https://toastlog.com/img/logos/cssscan.svg",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "Iconify",
+      "desc": "Home of open source icon sets",
+      "url": "https://iconify.design/",
+      "logo": "https://ts4.tc.mm.bing.net/th/id/ODF.90odpTDgo9yiowOd26X2-A?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "码途编辑器",
+      "desc": "程序员成长路上的 Markdown 编辑器）",
+      "url": "https://markdown.devtool.tech/app",
+      "logo": "https://markdown.devtool.tech/icon.svg",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "Yesicon",
+      "desc": "开源免费的图标库",
+      "url": "https://yesicon.app/",
+      "logo": "https://yesicon.app/apple-touch-icon.png",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "123APPS",
+      "desc": "用於影片、音訊、PDF 與檔案轉換的線上工具",
+      "url": "https://123apps.com/cn/",
+      "logo": "https://th.bing.com/th/id/ODF.RWiy3qcD4GH-CF_yKTpdUw?w=32&h=32&qlt=96&pcl=fffffa&o=6&pid=1.2",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "Icon-icons",
+      "desc": "适用于个人与商业用途的优质图标（SVG / PNG）",
+      "url": "https://icon-icons.com/zh/",
+      "logo": "https://icon-icons.com/images/icon-icons.svg",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "PATTERN MONSTER",
+      "desc": "为您的工程自定义 SVG 模式",
+      "url": "https://cn.pattern.monster/",
+      "logo": "https://cn.pattern.monster/icons/mstile-150x150.png",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "Font Awesome",
+      "desc": "The internet's favorite icon library & toolkit",
+      "url": "https://fontawesome.com/",
+      "logo": "https://images.icon-icons.com/2248/PNG/512/font_awesome_icon_135599.png",
+      "belonging": "程序开发"
+    },
+    {
+      "name": "Pixilart",
+      "desc": "专注于像素艺术创作的在线工具",
+      "url": "https://www.pixilart.com/",
+      "logo": "https://ts1.tc.mm.bing.net/th/id/OIP-C.jTN3_ArydZG-_bHMUaGpRQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "belonging": "美术设计"
+    },
+    {
+      "name": "Excalidraw",
+      "desc": "在线矢量绘图工具",
+      "url": "https://excalidraw.com",
+      "logo": "https://excalidraw.com/apple-touch-icon.png",
+      "belonging": "美术设计"
+    },
+    {
+      "name": "哔哩哔哩",
+      "desc": "哔哩哔哩动画平台",
+      "url": "https://www.bilibili.com",
+      "logo": "https://www.tapafun.com/wp-content/uploads/2024/11/bilibili.png",
+      "belonging": "影视娱乐"
+    },
+    {
+      "name": "AcFun",
+      "desc": "高清视频播放平台",
+      "url": "https://www.iqiyi.com",
+      "logo": "https://ts1.tc.mm.bing.net/th/id/OIP-C.PEfPuSjKJTawW-VBs04qwgHaHa?w=201&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2 ",
+      "belonging": "影视娱乐"
+    },
+    {
+      "name": "MOTD.GG",
+      "desc": "创建你的Minecraft MOTD",
+      "url": "https://motd.gg/",
+      "logo": "https://motd.gg/img/favicon/favicon.ico",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "MoeUB Server",
+      "desc": "成立于2012年的老牌CSGO社区",
+      "url": "https://csgo.moeub.cn/server",
+      "logo": "https://next.moeub.cn/moeub_logo.svg",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "MoeUB",
+      "desc": "试试换饰品吧",
+      "url": "https://next.moeub.cn/cs2",
+      "logo": "https://next.moeub.cn/moeub_logo.svg",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "MCBEID",
+      "desc": "查询MC中所有物品与实体ID",
+      "url": "https://ca.projectxero.top/idlist/",
+      "logo": "https://ca.projectxero.top/idlist/img/apple-touch-icon-152x152.png",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "McSeed Map",
+      "desc": "更好地查看你的MC种子",
+      "url": "https://mcseedmap.net/",
+      "logo": "https://mcseedmap.net/apple-touch-icon.png?v=20240522",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "Mclo",
+      "desc": "分析你的MC Log日志",
+      "url": "https://mclo.gs/",
+      "logo": "https://mclo.gs/img/favicon.ico",
+      "belonging": "游戏工具"
+    },
+    {
+      "name": "LittleSkin",
+      "desc": "快速可靠的Minecraft皮肤站",
+      "url": "https://littleskin.cn/?lang=zh_CN",
+      "logo": "https://littleskin.cn/favicon.png",
+      "belonging": "游戏工具"
+    }
+  ],
+  "categories": [
+    {
+      "id": "精品推荐",
+      "name": "精品推荐",
+      "icon": "mdi:bookmark-multiple-outline"
+    },
+    {
+      "id": "程序开发",
+      "name": "程序开发",
+      "icon": "mdi:code-json"
+    },
+    {
+      "id": "美术设计",
+      "name": "美术设计",
+      "icon": "mdi:palette-outline"
+    },
+    {
+      "id": "影视娱乐",
+      "name": "影视娱乐",
+      "icon": "mdi:television-play"
+    },
+    {
+      "id": "游戏工具",
+      "name": "游戏工具",
+      "icon": "mdi:gamepad-round-outline"
+    }
+
+  ]
+}

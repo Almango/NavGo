@@ -1,0 +1,171 @@
+---
+// 动漫页面
+import animeData from './anime.json';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { Icon } from "astro-icon/components";
+import '../assets/css/style.css';
+---
+
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavGo - 动漫推荐</title>
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧导航栏 -->
+        <Navbar />
+        
+        <!-- 内容区域 -->
+        <main class="content">
+            <div class="content-header">
+                <h1>动漫推荐</h1>
+                <p>精选优质动漫作品</p>
+            </div>
+            
+            <!-- 动漫列表 -->
+            <div class="anime-grid">
+                {animeData.animes.map(anime => (
+                    <div class="anime-card">
+                        <div class="anime-cover">
+                            <img src={anime.cover} alt={anime.name} />
+                        </div>
+                        <div class="anime-info">
+                            <h3 class="anime-title">{anime.name}</h3>
+                            <div class="anime-meta">
+                                <span class="anime-year">{anime.year}</span>
+                                <span class="anime-rating">
+                                    <Icon name="mdi:star" class="rating-icon" />
+                                    {anime.rating}
+                                </span>
+                            </div>
+                            <p class="anime-description">{anime.description}</p>
+                            <div class="anime-tags">
+                                {anime.tags.map(tag => (
+                                    <span class="anime-tag">{tag}</span>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            
+            <Footer />
+        </main>
+    </div>
+</body>
+</html>
+
+<style>
+    .anime-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 24px;
+        margin-top: 20px;
+    }
+
+    .anime-card {
+        background-color: var(--card-color);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+        transition: var(--transition);
+    }
+
+    .anime-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .anime-cover {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .anime-cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: var(--transition);
+    }
+
+    .anime-card:hover .anime-cover img {
+        transform: scale(1.05);
+    }
+
+    .anime-info {
+        padding: 20px;
+    }
+
+    .anime-title {
+        margin: 0 0 12px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--text-color);
+    }
+
+    .anime-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        font-size: 14px;
+        color: var(--text-secondary);
+    }
+
+    .anime-year {
+        font-weight: 500;
+    }
+
+    .anime-rating {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-weight: bold;
+        color: #f59e0b;
+    }
+
+    .rating-icon {
+        font-size: 16px;
+    }
+
+    .anime-description {
+        margin: 0 0 16px 0;
+        font-size: 14px;
+        color: var(--text-secondary);
+        line-height: 1.6;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .anime-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .anime-tag {
+        padding: 4px 12px;
+        background-color: var(--primary-color);
+        border-radius: 12px;
+        font-size: 12px;
+        color: var(--text-secondary);
+        font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+        .anime-grid {
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        .anime-cover {
+            height: 180px;
+        }
+    }
+</style>

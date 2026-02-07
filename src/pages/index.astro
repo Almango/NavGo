@@ -1,0 +1,89 @@
+---
+// 导航网站的首页
+import data from './index.json';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { Icon } from "astro-icon/components";
+import '../assets/css/style.css';
+
+// 按类别分组网站
+const groupedWebsites = data.categories.map(category => ({
+  ...category,
+  websites: data.websites.filter(website => website.belonging === category.id)
+}));
+---
+
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavGo - 化繁为简</title>
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧导航栏 -->
+        <Navbar />
+        
+        <!-- 内容区域 -->
+        <main class="content">
+            <div class="content-header">
+                <h1>NavGo</h1>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="输入关键词搜索..." />
+                    <button class="search-button"><Icon name="iconamoon:search-bold" /></button>
+                </div>
+            </div>
+            
+            <!-- 动态生成板块 -->
+            {groupedWebsites.map(category => (
+                <div class="section">
+                    <h2><Icon name={category.icon} class="category-icon" />{category.name}</h2>
+                    <div class="website-grid">
+                        {category.websites.map(website => (
+                            <a href={website.url} target="_blank" class="website-card-link">
+                                <div class="website-card">
+                                    <div class="website-logo">
+                                        {website.logo.startsWith('http') ? (
+                                            <img src={website.logo} alt={website.name} style="width: 100%; height: 100%; object-fit: contain;" />
+                                        ) : (
+                                            website.logo
+                                        )}
+                                    </div>
+                                    <div class="website-info">
+                                        <h3>{website.name}</h3>
+                                        <p>{website.desc}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        ))}
+                    </div>
+                </div>
+            ))}
+            
+            <Footer />
+        </main>
+    </div>
+    
+    <script>
+        // 搜索功能 - 调用Bing搜索引擎
+        const searchInput = document.querySelector('.search-input');
+        const searchButton = document.querySelector('.search-button');
+        
+        function searchWithBing() {
+            const keyword = searchInput.value.trim();
+            if (keyword) {
+                const bingUrl = `https://www.bing.com/search?q=${encodeURIComponent(keyword)}`;
+                window.open(bingUrl, '_blank');
+            }
+        }
+        
+        searchButton.addEventListener('click', searchWithBing);
+        
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                searchWithBing();
+            }
+        });
+    </script>
+</body>
+</html>

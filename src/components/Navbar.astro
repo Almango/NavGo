@@ -1,0 +1,58 @@
+---
+// 导航栏组件
+import { Icon } from "astro-icon/components";
+---
+
+<!-- 顶部导航栏 -->
+<header class="top-nav">
+    <div class="logo">
+        <img src="/favicon.ico" alt="Logo" class="logo-icon" />
+        <span>NavGo</span>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+
+<!-- 侧边导航栏 -->
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <img src="/favicon.ico" alt="Logo" class="sidebar-logo-icon" />
+        <h2>NavGo</h2>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="/">
+            <Icon name="mdi:compass-outline" class="nav-item-icon" />
+            <span>导航</span>
+        </a></li>
+        <li><a href="/anime">
+            <Icon name="mdi:television-play" class="nav-item-icon" />
+            <span>番剧</span>
+        </a></li>
+        <li><a href="#">
+            <Icon name="mdi:gamepad-round-outline" class="nav-item-icon" />
+            <span>游戏</span>
+        </a></li>
+        <li><a href="#">
+            <Icon name="mdi:cards-club-outline" class="nav-item-icon" />
+            <span>漫画</span>
+        </a></li>
+        <li><a href="#">
+            <Icon name="mdi:alert-box-outline" class="nav-item-icon" />
+            <span>关于</span>
+        </a></li>
+
+    </ul>
+</aside>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    
+    menuToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('open');
+        menuToggle.classList.toggle('open');
+    });
+</script>
