@@ -43,7 +43,7 @@ const groupedWebsites = data.categories.map(category => ({
                             <a href={website.url} target="_blank" class="website-card-link">
                                 <div class="website-card">
                                     <div class="website-logo">
-                                        {website.logo.startsWith('http') ? (
+                                        {website.logo.startsWith('http') || website.logo.startsWith('./') || website.logo.startsWith('/') ? (
                                             <img src={website.logo} alt={website.name} style="width: 100%; height: 100%; object-fit: contain;" />
                                         ) : (
                                             website.logo

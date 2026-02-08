@@ -47,12 +47,23 @@ import { Icon } from "astro-icon/components";
     </ul>
 </aside>
 
+<!-- 遮罩层 -->
+<div class="sidebar-overlay"></div>
+
 <script>
     const menuToggle = document.querySelector('.menu-toggle');
     const sidebar = document.querySelector('.sidebar');
+    const overlay = document.querySelector('.sidebar-overlay');
     
     menuToggle.addEventListener('click', () => {
         sidebar.classList.toggle('open');
         menuToggle.classList.toggle('open');
+        overlay.classList.toggle('active');
+    });
+    
+    overlay.addEventListener('click', () => {
+        sidebar.classList.remove('open');
+        menuToggle.classList.remove('open');
+        overlay.classList.remove('active');
     });
 </script>

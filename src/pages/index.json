@@ -14,17 +14,24 @@
       "logo": "https://images.icon-icons.com/729/PNG/512/bing_icon-icons.com_62711.png",
       "belonging": "精品推荐"
     },
+        {
+      "name": "雨云",
+      "desc": "新一代云服务提供商",
+      "url": "https://www.rainyun.com",
+      "logo": "https://www.rainyun.com/favicon.ico",
+      "belonging": "精品推荐"
+    },
     {
-      "name": "Google Search",
-      "desc": "全球最大的搜索引擎",
-      "url": "https://www.google.com",
-      "logo": "https://images.icon-icons.com/2699/PNG/512/google_logo_icon_169090.png",
+      "name": "Vercel",
+      "desc": "网站托管服务平台",
+      "url": "https://www.vercel.com",
+      "logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-256x256.png",
       "belonging": "精品推荐"
     },
     {
       "name": "豆包",
       "desc": "字节跳动旗下的AI智能助手",
-      "url": "https://www.duckduckgo.com",
+      "url": "https://www.doubao.com/",
       "logo": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png",
       "belonging": "精品推荐"
     },
@@ -34,6 +41,27 @@
       "url": "https://blog.almango.cn/",
       "logo": "https://www.almango.cn/image/avatar.png",
       "belonging": "精品推荐"
+    },
+    {
+      "name": "Github",
+      "desc": "全球最大的代码托管平台",
+      "url": "https://www.github.com",
+      "logo": "https://images.icon-icons.com/936/PNG/512/github-logo_icon-icons.com_73546.png",
+      "belonging": "程序开发"
+    },
+      {
+      "name": "Vercel",
+      "desc": "功能强大的静态网站托管平台",
+      "url": "https://www.vercel.com",
+      "logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-256x256.png",
+      "belonging": "程序开发"
+    },
+          {
+      "name": "Netlify",
+      "desc": "功能强大的静态网站托管平台",
+      "url": "https://www.netlify.com",
+      "logo": "https://www.netlify.com/favicon/icon.svg",
+      "belonging": "程序开发"
     },
     {
       "name": "CSS Scan",
@@ -47,6 +75,20 @@
       "desc": "Home of open source icon sets",
       "url": "https://iconify.design/",
       "logo": "https://ts4.tc.mm.bing.net/th/id/ODF.90odpTDgo9yiowOd26X2-A?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2",
+      "belonging": "程序开发"
+    },
+        {
+      "name": "宝塔",
+      "desc": "安全高效的服务器运维面板",
+      "url": "https://www.bt.cn/",
+      "logo": "https://www.bt.cn//favicon.ico",
+      "belonging": "程序开发"
+    },
+            {
+      "name": "小皮",
+      "desc": "好用安全稳定的服务器面板",
+      "url": "https://www.xp.cn/",
+      "logo": "https://www.xp.cn/images/logo.svg",
       "belonging": "程序开发"
     },
     {
@@ -78,6 +120,17 @@
       "belonging": "程序开发"
     },
 
+
+
+
+        {
+      "name": "腾讯文档",
+      "desc": "腾讯旗下的在线文档应用程序",
+      "url": "https://docs.qq.com/",
+      "logo": "https://so1.360tres.com/t01ecb0c40e3425ebf1.png",
+      "belonging": "日常办公"
+    },
+
         {
       "name": "Microsoft To Do",
       "desc": "微软旗下的待办应用程序",
@@ -92,7 +145,20 @@
       "logo": "https://th.bing.com/th/id/ODF.RWiy3qcD4GH-CF_yKTpdUw?w=32&h=32&qlt=96&pcl=fffffa&o=6&pid=1.2",
       "belonging": "日常办公"
     },
-
+    {
+      "name": "IMAGESCOLOR",
+      "desc": "高质量图像颜色提取器",
+      "url": "https://imagescolor.com/",
+      "logo": "https://imagescolor.com/favicon.ico?favicon.5cdaf1a6.ico",
+      "belonging": "日常办公"
+    },
+    {
+      "name": "Image Toolkit",
+      "desc": "免费且简便的图像工具",
+      "url": "https://imagetoolkit.org/",
+      "logo": "https://images.icon-icons.com/410/PNG/128/ufo_40816.png",
+      "belonging": "日常办公"
+    },
 
 
 
@@ -107,18 +173,57 @@
       "logo": "https://images.icon-icons.com/2248/PNG/512/font_awesome_icon_135599.png",
       "belonging": "程序开发"
     },
+
+
+
+
+
+
+
+
+    {
+      "name": "Figma",
+      "desc": "基于浏览器的协作式UI设计工具",
+      "url": "https://www.figma.com/",
+      "logo": "https://static.figma.com/app/icon/2/icon-128.png",
+      "belonging": "美术设计"
+    },
     {
       "name": "Pixilart",
       "desc": "专注于像素艺术创作的在线工具",
       "url": "https://www.pixilart.com/",
-      "logo": "https://ts1.tc.mm.bing.net/th/id/OIP-C.jTN3_ArydZG-_bHMUaGpRQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "logo": "https://youke.xn--y7xa690gmna.cn/s1/2026/02/08/6988457aeaf00.webp",
       "belonging": "美术设计"
     },
+        {
+      "name": "DOTOWN",
+      "desc": "无码可商用的像素素材网",
+      "url": "hhttps://dotown.maeda-design-room.net/",
+      "logo": "https://dotown.maeda-design-room.net/wp-content/uploads/2022/01/favicon.png",
+      "belonging": "美术设计"
+    },
+
+
+
     {
       "name": "Excalidraw",
       "desc": "在线矢量绘图工具",
       "url": "https://excalidraw.com",
       "logo": "https://excalidraw.com/apple-touch-icon.png",
+      "belonging": "美术设计"
+    },
+{
+      "name": "Draw.io",
+      "desc": "团队安全优先的图表绘制",
+      "url": "https://www.drawio.com/",
+      "logo": "https://www.drawio.com/favicon.ico",
+      "belonging": "美术设计"
+    },
+{
+      "name": "Pixel Art Creator",
+      "desc": "在线创建像素艺术",
+      "url": "https://www.pixelartcreator.com/",
+      "logo": "https://www.pixelartcreator.com/logo.png",
       "belonging": "美术设计"
     },
     {
@@ -135,6 +240,16 @@
       "logo": "https://ts1.tc.mm.bing.net/th/id/OIP-C.PEfPuSjKJTawW-VBs04qwgHaHa?w=201&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2 ",
       "belonging": "影视娱乐"
     },
+
+
+    {
+      "name": "MSI Afterburner",
+      "desc": "功能强大的显卡监控软件",
+      "url": "https://www.msi.com/Landing/afterburner/graphics-cards",
+      "logo": "https://youke.xn--y7xa690gmna.cn/s1/2026/02/08/698856b4c3ffd.webp",
+      "belonging": "游戏工具"
+    },
+
     {
       "name": "MOTD.GG",
       "desc": "创建你的Minecraft MOTD",
@@ -183,7 +298,40 @@
       "url": "https://littleskin.cn/?lang=zh_CN",
       "logo": "https://littleskin.cn/favicon.png",
       "belonging": "游戏工具"
+    },
+
+
+
+{
+      "name": "图吧工具箱",
+      "desc": "专业硬件检测工具集",
+      "url": "https://www.tubatool.com/",
+      "logo": "https://www.tubatool.com/icons/favicon-192x192.ico",
+      "belonging": "硬件检测"
+    },
+{
+      "name": "UFO Test",
+      "desc": "显示器帧率测试",
+      "url": "https://testufo.com/",
+      "logo": "https://testufo.com/images/blurbustersUFOborder.png",
+      "belonging": "硬件检测"
+    },{
+      "name": "在线屏幕检测",
+      "desc": "在线屏幕坏点检测",
+      "url": "https://screen.bmcx.com/#welcome",
+      "logo": "https://f.bmcx.com/file/screen/i_c_o.png?v=3c9c7055b1482ee3_2940",
+      "belonging": "硬件检测"
+    },{
+      "name": "超能网天梯榜",
+      "desc": "各大硬件性能天梯榜",
+      "url": "https://exprank.com/",
+      "logo": "https://exprank.com/favicon.ico",
+      "belonging": "硬件检测"
     }
+
+
+
+
   ],
   "categories": [
     {
@@ -215,7 +363,11 @@
       "id": "游戏工具",
       "name": "游戏工具",
       "icon": "mdi:gamepad-round-outline"
+    },
+    {
+      "id": "硬件检测",
+      "name": "硬件检测",
+      "icon": "mdi:wrench-outline"
     }
-
   ]
 }
