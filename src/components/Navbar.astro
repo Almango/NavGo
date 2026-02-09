@@ -10,11 +10,31 @@ import { Icon } from "astro-icon/components";
         <span>NavGo</span>
     </div>
     <button class="menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <Icon name="iconamoon:menu-burger-horizontal" class="menu-icon" />
     </button>
 </header>
+
+<style>
+    /* 确保顶部导航栏在移动端显示 */
+    @media (max-width: 768px) {
+        .top-nav {
+            display: flex !important;
+        }
+        
+        .menu-toggle {
+            display: flex !important;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .menu-icon {
+            font-size: 24px;
+            color: var(--text-color);
+        }
+    }
+</style>
 
 <!-- 侧边导航栏 -->
 <aside class="sidebar">
@@ -25,22 +45,39 @@ import { Icon } from "astro-icon/components";
     <ul class="nav-menu">
         <li><a href="/">
             <Icon name="mdi:compass-outline" class="nav-item-icon" />
-            <span>导航</span>
+            <span>导航中心</span>
         </a></li>
         <li><a href="/">
+            <Icon name="mdi:briefcase-variant-outline" class="nav-item-icon" />
+            <span>办公专题</span>
+        </a></li>
+        <li><a href="/">
+            <Icon name="mdi:puzzle-outline" class="nav-item-icon" />
+            <span>娱乐专区</span>
+        </a></li>
+        <li><a href="/">
+            <Icon name="mdi:robot-outline" class="nav-item-icon" />
+            <span>人工智能</span>
+        </a></li>
+        <li><a href="/">
+            <Icon name="mdi:square-root" class="nav-item-icon" />
+            <span>学术支持</span>
+        </a></li>
+        <br>
+        <li><a href="/anime">
             <Icon name="mdi:television-play" class="nav-item-icon" />
             <span>番剧</span>
         </a></li>
-        <li><a href="#">
+        <li><a href="/">
             <Icon name="mdi:gamepad-round-outline" class="nav-item-icon" />
             <span>游戏</span>
         </a></li>
-        <li><a href="#">
+        <li><a href="/">
             <Icon name="mdi:cards-club-outline" class="nav-item-icon" />
             <span>漫画</span>
         </a></li>
-        <li><a href="#">
-            <Icon name="mdi:alert-box-outline" class="nav-item-icon" />
+        <li><a href="/about">
+            <Icon name="mdi:alert-circle-outline" class="nav-item-icon" />
             <span>关于</span>
         </a></li>
 
@@ -57,13 +94,11 @@ import { Icon } from "astro-icon/components";
     
     menuToggle.addEventListener('click', () => {
         sidebar.classList.toggle('open');
-        menuToggle.classList.toggle('open');
         overlay.classList.toggle('active');
     });
     
     overlay.addEventListener('click', () => {
         sidebar.classList.remove('open');
-        menuToggle.classList.remove('open');
         overlay.classList.remove('active');
     });
 </script>
