@@ -168,7 +168,7 @@ try {
     }
     
     .anime-subtitle {
-        font-size: 16px;
+        font-size: 12px;
         color: var(--text-secondary);
         margin: 0;
     }
@@ -425,54 +425,15 @@ try {
     
     /* 响应式设计 */
     @media (max-width: 768px) {
-        .anime-header {
-            flex-direction: column;
-            align-items: flex-start;
-            margin-bottom: 30px;
-            padding: 16px 0;
-        }
-        
-        .anime-title {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
-        
-        .anime-subtitle {
-            font-size: 14px;
-        }
-        
+
         .anime-grid {
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             gap: 12px;
         }
-        
-        .anime-cover {
-            padding-bottom: 130%;
-        }
-        
         .anime-info {
             padding: 10px;
         }
-        
-        .anime-title {
-            font-size: 18px;
-        }
-        
-        .anime-tag {
-            font-size: 9px;
-            padding: 1px 4px;
-        }
-        
-        .anime-rating {
-            font-size: 18px;
-        }
-        
-        .rating-icon {
-            font-size: 12px;
-        }
-        
-        .anime-year {
-            font-size: 10px;
-        }
+
+
     }
 </style>
