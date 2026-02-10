@@ -63,18 +63,19 @@ body {
     display: none;
 }
 
-.top-nav .logo {
+.top-nav .logo-link {
     font-size: 20px;
     font-weight: bold;
     color: var(--text-color);
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
 
 .logo-icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
 }
 
@@ -113,14 +114,23 @@ body {
     margin-bottom: 20px;
 }
 
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
 .sidebar-logo-icon {
-    font-size: 24px;
-    color: var(--text-color);
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .sidebar-header h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: var(--text-color);
 }
@@ -166,6 +176,17 @@ body {
     flex-shrink: 0;
     display: flex;
     align-items: center;
+}
+
+.nav-menu a::after {
+    content: '\203A';
+    font-size: 18px;
+    color: var(--text-secondary);
+    margin-left: auto;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
 }
 
 
@@ -346,6 +367,12 @@ body {
         display: flex;
         width: 40px;
         height: 40px;
+    }
+    
+    .top-nav .logo-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
     }
     
     .container {

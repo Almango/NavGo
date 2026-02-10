@@ -1,11 +1,12 @@
 ---
 // 番剧页面 - 使用Bangumi API获取用户收藏
+import { API } from '../config';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { Icon } from "astro-icon/components";
 import '../assets/css/style.css';
 
-const username = '1164954';
+const username = API.BangumiAPI_ID;
 let collections = [];
 let loading = true;
 let error = null;

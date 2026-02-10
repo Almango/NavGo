@@ -15,24 +15,17 @@
       "belonging": "精品推荐"
     },
     {
-      "name": "Vercel",
-      "desc": "网站托管服务平台",
-      "url": "https://www.vercel.com",
-      "logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-256x256.png",
-      "belonging": "精品推荐"
-    },
-    {
-      "name": "百度翻译",
-      "desc": "百度新一代AI大模型翻译平台",
-      "url": "https://fanyi.baidu.com/mtpe-individual/multimodal",
-      "logo": "https://fanyi.baidu.com/favicon.ico",
-      "belonging": "精品推荐"
-    },
-    {
       "name": "豆包",
       "desc": "字节跳动旗下的AI智能助手",
       "url": "https://www.doubao.com/",
       "logo": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png",
+      "belonging": "精品推荐"
+    },
+    {
+      "name": "NavGo",
+      "desc": "个人运营的简约而实用的导航网站",
+      "url": "https://navgo.almango.cn/",
+      "logo": "/favicon.ico",
       "belonging": "精品推荐"
     },
     {
@@ -75,20 +68,6 @@
       "desc": "Home of open source icon sets",
       "url": "https://iconify.design/",
       "logo": "https://ts4.tc.mm.bing.net/th/id/ODF.90odpTDgo9yiowOd26X2-A?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2",
-      "belonging": "程序开发"
-    },
-    {
-      "name": "宝塔",
-      "desc": "安全高效的服务器运维面板",
-      "url": "https://www.bt.cn/",
-      "logo": "https://www.bt.cn//favicon.ico",
-      "belonging": "程序开发"
-    },
-    {
-      "name": "小皮",
-      "desc": "好用安全稳定的服务器面板",
-      "url": "https://www.xp.cn/",
-      "logo": "https://www.xp.cn/images/logo.svg",
       "belonging": "程序开发"
     },
     {
@@ -141,6 +120,13 @@
       "belonging": "日常办公"
     },
     {
+      "name": "百度翻译",
+      "desc": "百度新一代AI大模型翻译平台",
+      "url": "https://fanyi.baidu.com/mtpe-individual/multimodal",
+      "logo": "https://fanyi.baidu.com/favicon.ico",
+      "belonging": "日常办公"
+    },
+    {
       "name": "123APPS",
       "desc": "用於影片、音訊、PDF 與檔案轉換的線上工具",
       "url": "https://123apps.com/cn/",
@@ -155,10 +141,24 @@
       "belonging": "日常办公"
     },
     {
+      "name": "FreeConvert",
+      "desc": "在线文件转换工具",
+      "url": "https://www.freeconvert.com/zh",
+      "logo": "https://www.freeconvert.com/favicon.ico",
+      "belonging": "日常办公"
+    },
+    {
       "name": "Image Toolkit",
       "desc": "免费且简便的图像工具",
       "url": "https://imagetoolkit.org/",
       "logo": "https://images.icon-icons.com/410/PNG/128/ufo_40816.png",
+      "belonging": "日常办公"
+    },
+    {
+      "name": "雪豹ICO在线",
+      "desc": "在线ICO图标生成工具",
+      "url": "https://www.xbgjw.com/ico#google_vignette",
+      "logo": "https://www.xbgjw.com/favicon.ico",
       "belonging": "日常办公"
     },
     {
@@ -224,7 +224,7 @@
       "logo": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/2025_0313_logo.png",
       "belonging": "影视娱乐"
     },
-        {
+    {
       "name": "红果短剧",
       "desc": "高质量免费短剧平台",
       "url": "https://www.hongguoduanju.com/",
@@ -241,7 +241,7 @@
     {
       "name": "金牌影院",
       "desc": "高质量影视在线观看平台",
-      "url": "https://www.vv3nwjk.com/",
+      "url": "https://www.hellorlgzf7sn.com/",
       "logo": "https://obs.3688baihuo.com/upload/site_ico/20250210-1/82f60e82218ab42e446da3719512f6bf_180x180.png",
       "belonging": "影视娱乐"
     },

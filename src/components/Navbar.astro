@@ -5,12 +5,12 @@ import { Icon } from "astro-icon/components";
 
 <!-- 顶部导航栏 -->
 <header class="top-nav">
-    <div class="logo">
+    <a href="/" class="logo-link">
         <img src="/favicon.ico" alt="Logo" class="logo-icon" />
         <span>NavGo</span>
-    </div>
+    </a>
     <button class="menu-toggle" aria-label="Toggle menu">
-        <Icon name="iconamoon:menu-burger-horizontal" class="menu-icon" />
+        <Icon name="mdi:view-agenda-outline" class="menu-icon" />
     </button>
 </header>
 
@@ -39,8 +39,10 @@ import { Icon } from "astro-icon/components";
 <!-- 侧边导航栏 -->
 <aside class="sidebar">
     <div class="sidebar-header">
-        <img src="/favicon.ico" alt="Logo" class="sidebar-logo-icon" />
-        <h2>NavGo</h2>
+        <a href="/" class="logo-link">
+            <img src="/favicon.ico" alt="Logo" class="sidebar-logo-icon" />
+            <h2>NavGo</h2>
+        </a>
     </div>
     <ul class="nav-menu">
         <li><a href="/">
@@ -65,7 +67,7 @@ import { Icon } from "astro-icon/components";
         </a></li>
         <br>
         <li><a href="/anime">
-            <Icon name="mdi:television-play" class="nav-item-icon" />
+            <Icon name="mdi:play-box-outline" class="nav-item-icon" />
             <span>番剧</span>
         </a></li>
         <li><a href="/">

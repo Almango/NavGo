@@ -6,7 +6,9 @@ export const SiteConfig = {
   url: 'https://navgo.almango.cn',
 }
 
-
+export const API = {
+  BangumiAPI_ID: '1164954',
+}
 export const DEVELOPER_CONFIG = {
-  THEME_VERSION: '0.0.3',
+  THEME_VERSION: '0.0.4',
 }
