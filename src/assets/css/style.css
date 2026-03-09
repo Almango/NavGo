@@ -445,3 +445,26 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+/* 定义slide-in动画 */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 应用slide-in动画的类 */
+.animate-slide-in {
+    animation: slide-in 0.3s ease-out forwards;
+    opacity: 0;
+    /* 初始状态为透明 */
+}
+
