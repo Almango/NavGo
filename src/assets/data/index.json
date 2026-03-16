@@ -113,13 +113,6 @@
       "belonging": "日常办公"
     },
     {
-      "name": "DeepL",
-      "desc": "高效准确的在线翻译网站",
-      "url": "https://www.deepl.com/zh/translator",
-      "logo": "https://www.deepl.com/img/logo/deepl-logo-blue.svg",
-      "belonging": "日常办公"
-    },
-    {
       "name": "百度翻译",
       "desc": "百度新一代AI大模型翻译平台",
       "url": "https://fanyi.baidu.com/mtpe-individual/multimodal",
