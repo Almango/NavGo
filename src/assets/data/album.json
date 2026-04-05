@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "id": "suipai",
+      "name": "随拍",
+      "icon": "mdi:camera-outline"
+    },
+    {
+      "id": "fengjing",
+      "name": "风景",
+      "icon": "mdi:image-outline"
+    },
+    {
+      "id": "renwu",
+      "name": "人物",
+      "icon": "mdi:account-outline"
+    },
+    {
+      "id": "meishi",
+      "name": "美食",
+      "icon": "mdi:food-outline"
+    }
+  ],
+  "photos": [
+    {
+      "category": "suipai",
+      "location": "贵州·遵义",
+      "date": "2026-02-16",
+      "description": "到此一游",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ee57135.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "贵州·遵义",
+      "date": "2026-02-16",
+      "description": "一览众山小",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ee65459.jpg"
+    },
+    {
+      "category": "meishi",
+      "location": "贵州·遵义",
+      "date": "2026-02-18",
+      "description": "第一次吃羊肉粉",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ee1711a.jpg"
+    },
+    {
+      "category": "fengjing",
+      "location": "贵州·遵义",
+      "date": "2026-02-20",
+      "description": "遵义会议会址1-故地重游",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ee0361d.jpg"
+    },
+    {
+      "category": "fengjing",
+      "location": "贵州·遵义",
+      "date": "2026-02-20",
+      "description": "遵义会议会址2-故地重游",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ee37d4b.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "贵州·遵义",
+      "date": "2026-02-20",
+      "description": "遵义夜景",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f7ede8ec6.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "江西·上饶",
+      "date": "2026-03-05",
+      "description": "春来了",
+      "image": "https://bu.dusays.com/2026/03/25/69c3ee7fa67ac.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "江西·上饶",
+      "date": "2026-03-05",
+      "description": "油菜花开",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f468c061b.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "江西·上饶",
+      "date": "2026-03-06",
+      "description": "后院2",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f469478a9.jpg"
+    },
+    {
+      "category": "suipai",
+      "location": "江西·上饶",
+      "date": "2026-03-06",
+      "description": "后院2",
+      "image": "https://bu.dusays.com/2026/04/05/69d1f46944ae9.jpg"
+    }
+  ]
+}

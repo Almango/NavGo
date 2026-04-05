@@ -295,6 +295,8 @@ body {
     transition: var(--transition);
     height: 80px;
     border-radius: var(--border-radius);
+    background-color: var(--card-color);
+    box-shadow: var(--box-shadow);
 }
 
 .website-card:hover {
